@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+  }
+
+  h2 {
+    padding: 20px;
+    text-align: center;
+    background-color: orange;
+    color: white;
+  }
+
+  form {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px 0 20px;
+    color: orange;
+  }
+
+  label {
+    margin-bottom: 10px;
+  }
+
+  input[type="text"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+
+  input[type="button"] {
+    padding: 10px 20px;
+    background-color: orange;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border: 1px solid orange;
+    border-radius: 10px;
+  }
+  
+  input[type="button"]:hover {
+    background-color: white;
+    color: orange;
+  }
+
+  @media screen and (max-width: 600px) {
+    .container {
+      padding: 10px;
+    }
+  }
